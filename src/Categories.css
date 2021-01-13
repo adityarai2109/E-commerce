@@ -1,0 +1,13 @@
+.categories {
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(255, 240, 252);
+}
+
+.categories__images {
+    width: 24%;
+    margin-right: 1%;
+}

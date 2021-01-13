@@ -1,0 +1,45 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    padding: 10px 10px;
+    background-color: rgb(238, 231, 238);
+}
+
+.header__logo {
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.header__searchInput {
+    margin-left: 100px;
+    height: 42px;
+    width: 543px;
+}
+
+.header__searchIcon {
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    font-size: 100px;
+}
+
+.header__login {
+    color: black;
+    margin-left: 100px;
+    margin-right: 25px;
+}
+
+.header__wishlist {
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.header__cart {
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+}

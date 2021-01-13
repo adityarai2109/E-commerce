@@ -1,0 +1,17 @@
+
+.catalogue {
+    /* padding-left: 150px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(247, 238, 255);
+}
+
+.catalogue__span {
+    width: 100%;
+    color: black;
+    margin-left: 75px;
+    margin-right: 75px;
+}
