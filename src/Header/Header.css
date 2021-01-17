@@ -5,7 +5,7 @@
   height: 10vh;
   display: flex;
   justify-content: space-around;
-  background-color: rgb(184, 130, 255);
+  background-color: #957DAD;
 }
 
 .logo {
@@ -38,8 +38,12 @@
   justify-content: space-around;
   color: black;
   margin-top: 2.5vh;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .nav-right {
   float: right;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }

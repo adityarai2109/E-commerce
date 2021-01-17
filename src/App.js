@@ -1,17 +1,19 @@
 import React from "react";
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import 'react-bootstrap'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import './Header.js';
-import Header from "./Header.js";
-import Catalogue from "./Catalogue.js"
-import Home from "./Home.js";
-import Categories from "./Categories.js"
+
+import Header from "./Header/Header.js";
+import Catalogue from "./Catalogue/Catalogue.js"
+import Home from "./Home/Home.js";
+import Categories from "./Categories/Categories.js"
+import CustomCarousel from "./CustomCarousel/CustomCarousel.js";
 
 
 
@@ -21,6 +23,7 @@ function App() {
       <div className="app">
         <Switch>
           <Route path="/checkout">
+            <customCarousel />
             <Header />
             <h1>Checkout</h1>
           </Route>
@@ -32,8 +35,10 @@ function App() {
           <Route path="/">
             <Header />
             <Catalogue />
+            <CustomCarousel />
             <Categories />
             <Home />
+            
 
           </Route>
         </Switch>
