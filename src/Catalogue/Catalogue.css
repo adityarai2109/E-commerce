@@ -1,0 +1,21 @@
+.catalogue {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #F55BC1;
+  height: 5%;
+}
+
+.catalogue__span {
+  color: #540D6E;
+  font-weight: normal;
+  font-size: xx-large;
+}
+
+.partition {
+  color: #540D6E;
+  font-weight: normal;
+  font-size: xx-large;
+}
