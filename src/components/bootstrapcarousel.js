@@ -20,8 +20,12 @@ export default function Carousel() {
             className="carousel-item absolute opacity-0"
             style={{ height: "50vh" }}
           >
-            <div className="block h-full w-full bg-purple-800 text-white text-5xl text-center">
-              Our newest collection
+            <div className="block h-full w-full bg-grey-100 text-white text-5xl text-center">
+              <img
+                src="https://source.unsplash.com/random/400x400"
+                style={{ marginLeft: "50% ", transform: "translate(-50%)" }}
+                alt="img"
+              />
             </div>
           </div>
           <label
@@ -49,8 +53,12 @@ export default function Carousel() {
             className="carousel-item absolute opacity-0"
             style={{ height: "50vh" }}
           >
-            <div className="block h-full w-full bg-red-500 text-white text-5xl text-center">
-              Sale dhamaka
+            <div className="block h-full w-full bg-purple-200 text-white text-5xl text-center">
+              <img
+                src="https://source.unsplash.com/random/400x400"
+                style={{ marginLeft: "50% ", transform: "translate(-50%)" }}
+                alt="img"
+              />
             </div>
           </div>
           <label
@@ -79,7 +87,11 @@ export default function Carousel() {
             style={{ height: "50vh" }}
           >
             <div className="block h-full w-full bg-green-500 text-white text-5xl text-center">
-              Our luxurious Imports
+              <img
+                src="https://source.unsplash.com/random/400x400"
+                style={{ marginLeft: "50% ", transform: "translate(-50%)" }}
+                alt="img"
+              />
             </div>
           </div>
           <label
