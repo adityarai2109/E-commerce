@@ -84,7 +84,7 @@ export default function Carousel() {
           />
           <div
             className="carousel-item absolute opacity-0"
-            style={{ height: "50vh" }}
+            style={{ height: "52vh" }}
           >
             <div className="block h-full w-full bg-green-500 text-white text-5xl text-center">
               <img
