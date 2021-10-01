@@ -89,7 +89,7 @@ export default function Carousel() {
             <div className="block h-full w-full bg-green-500 text-white text-5xl text-center">
               <img
                 src="https://source.unsplash.com/random/400x400"
-                style={{ marginLeft: "50% ", transform: "translate(-50%)" }}
+                style={{ marginLeft: "52% ", transform: "translate(-50%)" }}
                 alt="img"
               />
             </div>
