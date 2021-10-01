@@ -30,3 +30,5 @@ const productSchema = new mongoose.Schema ({
 });
 
 const Product = new mongoose.model("Product", productSchema);
+
+// Just a random comment to see if we can get free t-shirts
